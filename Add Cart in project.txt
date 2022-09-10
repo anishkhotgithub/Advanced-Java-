@@ -1,0 +1,27 @@
+create caritems table in database
+
+	create table cartitems
+	(
+		cartitemid int primary key auto_increment,
+		bookid int,
+		username varchar(40)
+	)
+
+book.jsp
+	Change addtocart link (anchor tag)
+
+AddToCartServlet.java
+
+--------------------------------------------------------
+--------------------------------------------------------
+
+
+create new page cart.jsp
+
+---------------------------------------------------------
+---------------------------------------------------------
+
+Add /cart.jsp and /AddToCartServlet urlpatterns in filter.
+
+----------------------------------------------------------
+----------------------------------------------------------

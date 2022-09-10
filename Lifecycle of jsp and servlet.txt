@@ -1,0 +1,25 @@
+CGI VS Servlet:
+
+	CGI (Common Gateway Interface)	
+	Servlet
+
+
+Lifecyle Of a servlet:
+
+	1) Convert servlet to bytecode.   
+	2) Load servlet instance.
+	3) Call init() method.
+	4) Call service() method.
+	5) Call destroy() method.
+
+Lifecyle of a jsp:		
+
+	1) Translate jsp to servlet.
+	2) Convert to bytecode.
+	3) Create instance.
+	4) Load Servlet instance.
+	5) Call jspInit() method.
+	6) Call _jspService() Method.
+	7) Call jspDestory() method.
+
+

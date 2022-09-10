@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    
+    <servlet>
+    		<servlet-name>MyServlet2</servlet-name>
+    		<servlet-class>servlet.MyServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    		<servlet-name>MyServlet2</servlet-name>
+    		<url-pattern>/MyServlet2</url-pattern>
+    		<url-pattern>/MyServ2</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Wildcard Url Patterns -->
+    <!-- 
+    <filter>
+    	<filter-name>MyFilter</filter-name>
+    	<filter-class>filter.MyFilter</filter-class>
+    </filter>
+    <filter-mapping>
+    		<filter-name>MyFilter</filter-name>
+    		
+    		<url-pattern>edit.jsp</url-pattern>
+    		<url-pattern>/OrderController</url-pattern>
+    		<url-pattern>/DeleteController</url-pattern>
+    </filter-mapping>
+     -->
+     
+     <welcome-file-list>
+     	<welcome-file>home.html</welcome-file>
+     	<welcome-file>login.html</welcome-file>
+     </welcome-file-list>
+</web-app>

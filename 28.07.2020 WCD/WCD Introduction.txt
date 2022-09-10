@@ -1,0 +1,65 @@
+WCD - Web Componenet Developement Using JSP & Servlet Technologies.
+
+Java
+	Java SE / J2SE (Standard Edition)
+	Java EE / J2EE (Enterprise Edition)
+	Java ME / J2ME (Micro Edition)
+
+Java
+	Core Java - Console
+	Website 
+		  - Presentation Layer (Designing Language   - HTML) 
+		  - Application  Layer (Programming Language - Java)
+		  - Data         Layer (Database Language    - SQL)
+
+	Android
+		  - Presentation Layer (Designing Language   - XML) 
+		  - Application  Layer (Programming Language - Java)
+		  - Data         Layer (Database Language    - SQL)
+
+Web server
+	Web server software is used to hold website 
+	and serve multiple users.
+
+Softwares Required?
+
+	JDK Software:
+		https://drive.google.com/file/d/1_GbtniyizXQOmHOfxs2krXJo3-cAkkyV/view?usp=sharing
+		
+	Donwload Eclipse zip file from following link:
+		https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2020-03/R/eclipse-jee-2020-03-R-incubation-win32-x86_64.zip
+
+	Download Tomcat Server zip file from following link:
+		https://tomcat.apache.org/download-90.cgi
+		
+
+Homework:
+	
+	1) Download all softwares and extract in one folder.
+	2) Open Eclipse -> select workspace.
+	3) Add tomcat server.
+	4) Click on file -> new -> dynamic web project
+	5) Give any name to your project -> select tomcat from drop down.
+	6) Once project is created -> Right click on webcontent
+	7) Create your html files.
+		
+			login.html
+			register.html
+
+	-JSP
+	-Servlet 
+	-MVC
+	-JDBC
+	-JSP Tags
+	-JSP Standard Tags
+	-Session Handling
+	-Cookies
+	-Ajax
+	-TLD's
+	-Asynchrnous Servlets
+	-JNDI
+	-Different Scopes
+	-API (Email, Payment)
+	-Frameworks
+
+	

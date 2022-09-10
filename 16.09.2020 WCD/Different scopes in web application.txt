@@ -1,0 +1,21 @@
+Different Scopes in Web Application:
+
+1) Page Scope
+2) Request Scope
+3) Session Scope
+4) Application Scope
+
+
+	Request Scope:
+		Send data from one page to another.
+		Once second page receives data, automatically data
+		is removed from scope.
+		Means we can only use data in second page which received it.
+		And no other page in application can use the data.
+		
+	Session Scope:
+		IN session scope we don't send data from page to other pages.
+		Instead of sending we inject data in the browser.
+		Now, all pages can use that data because.
+		Finally all pages are going to open in browser.
+		

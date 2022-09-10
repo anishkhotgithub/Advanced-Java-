@@ -1,0 +1,17 @@
+Create custom tags (TLD - Tag Library Descriptor)
+
+1) Write your java logic/code.
+2) Register java file in tld under web-inf folder.
+3) Give tld path in web.xml. 
+4) Use your tag in jsp file.
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+Changes: (Sorting products by price demo)
+
+	Header.jsp changed added two new links before form.
+	books.jsp changed added two queries on top for sorting products by price.
+
+----------------------------------------------------------------
+----------------------------------------------------------------

@@ -1,0 +1,15 @@
+create table books
+(
+	bookid int primary key auto_increment,
+	bookname varchar(50),
+	author varchar(50),
+	price float,
+	link varchar(500)
+);
+
+
+JSTL (JSP Standard Tag Library)
+	Link to donwload jar
+		https://mvnrepository.com/artifact/javax.servlet/jstl/1.2
+
+

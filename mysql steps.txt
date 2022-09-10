@@ -1,0 +1,21 @@
+Download MySql software:
+	https://docs.google.com/uc?export=download&id=0B-9Vl9hXQBBhb0ZBdDdHTUhKVW8
+
+
+Write Following sql queries;
+
+create database demo;
+
+use demo;
+
+create table users
+(
+	username varchar(20),
+	email varchar(34),
+	password varchar(20)
+);
+
+insert into users values('sameer123','sameer@gmail.com','pass@123');
+
+select * from users;
+

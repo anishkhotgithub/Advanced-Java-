@@ -1,0 +1,47 @@
+Create Filter2.java file
+Remove /AddToCartServlet Url pattern from login filter.
+change code for deleting session of user in login.jsp page.
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+Add a new column quantity in cart table.
+
+	alter table cart
+	add column quantity int
+
+
+add form in book.jsp for adding cart.
+Update AddToCartServlet.
+update cart.jsp page and add form for showing quantity and updating
+quantity.
+
+
+Note: Homework: Update cart quantity. For this create UpdateCartServlet
+
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+Create OrderController.java file
+Change userid and user secret with your userid and usersecret.
+You can get userid and user secret from:
+
+	goto https://test.instamojo.com/
+	sign in with gmail.
+	click on api and plugins
+	scroll down
+	click on create new credentials
+	select java from drop down and generate.
+
+Download jar files from email and 
+Put jar files in lib folder under web-inf folder.
+
+
+NOTE: For dummy credit card details
+      Goto test.instamojo.com
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+
+	

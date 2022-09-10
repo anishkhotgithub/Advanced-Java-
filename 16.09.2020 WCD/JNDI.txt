@@ -1,0 +1,31 @@
+JNDI (Java Naming Directory Interface)
+
+	If you write database information in all projects and all
+	files. IN future if your data information changes. You 
+	also have to change all your java files.
+
+	So, you can store your database information in xml file
+	in tomcat server.
+	So, it also reduces number of connections and in future if
+	database information changes. You just have to update xml 
+	files.
+
+
+	Steps:
+		Goto server.xml and add Resource tag.
+		Change your database information in resource tag.
+		Goto context.xml file and add ResourceLink tag.
+
+		Goto your servlet file and remove class.forname and connection line.
+		Add JNDI code for database connection.
+
+		Note: Import JNDI classes from proper package:
+
+			import javax.naming.Context;
+			import javax.naming.InitialContext;
+			import javax.sql.DataSource;
+
+			Context ctx = new InitialContext();
+			DataSource ds = (DataSource) ctx.lookup("java:/comp/env/jdbc/MyLocalDB");
+			Connection con=ds.getConnection();
+		

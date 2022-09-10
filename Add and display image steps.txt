@@ -1,0 +1,24 @@
+
+
+Goto your database and add new column image:
+
+	alter table books
+	add image longblob
+
+Goto addbook.jsp and add following lines:
+	
+	1) Add textbox for selecting images from pc.
+	2) add enctype="multipart/form-data" for allowing multipart data in form.
+
+Goto AddbookServlet.java file:
+
+	1) Add @MultipartConfig Annotation	
+	2) Get part data using req.getPart() method
+	3) setBlob() in existing query.
+	
+Goto books.jsp and file and add image tag with url of imageservlet:
+	<img src="ImageServlet?id=${row.bookid}"/>
+
+Create a new servlet ImageServlet:
+
+

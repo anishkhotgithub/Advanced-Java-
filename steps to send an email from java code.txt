@@ -1,0 +1,22 @@
+Steps to Send Email 
+
+1) Write Email.java code
+2) Update RegistrationServlet to send an email
+3) Add mail.jar file.
+
+	https://mvnrepository.com/artifact/com.sun.mail/javax.mail/1.6.0
+
+4) Allow less secure app access.
+
+	1) Goto gmail.
+	2) Sign in with your gmail id and password.
+	3) Click on google apps from upper right corner window.
+	4) Click on account.
+	5) Click on security.
+	6) Scroll down and allow less secure app access.
+
+	Note: If you have any two way security then bydefault this option
+	      is disabled.
+
+
+

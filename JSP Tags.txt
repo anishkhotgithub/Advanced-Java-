@@ -1,0 +1,16 @@
+JSP Tags:
+
+1) Scriplet 		<%     %>
+2) Directive		<%@    %>
+3) Expression		<%=    %>
+4) Declaration		<%!    %>
+5) Comments		<%-- --%>
+
+
+JSTL (JSP Standard Tag Library)
+
+1) Core
+2) SQL
+3) Functions
+4) Format
+5) Xml

@@ -1,0 +1,18 @@
+
+
+	1) book.jsp 
+	2) Add below link in book.jsp page
+			<a href="DeleteServlet?bookid=${row.bookid}">Delete</a>
+
+	3) Create DeleteServlet
+	4) In books.jsp page change your sql query.
+			select * from books where status='A'
+
+	5) In AddBookServlet change your query and add status column.
+			
+	6) edit.jsp page
+
+
+	
+	
+
